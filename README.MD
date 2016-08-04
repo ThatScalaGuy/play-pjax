@@ -11,11 +11,11 @@
 1. Add the play filter to your application
 
     * Add the reslover if needed 
-        ``` scala 
+        ```scala 
         resolvers += Resolver.jcenterRepo
         ```
     * Add the dependency to your sbt file 
-        ``` scala
+        ```scala
         libraryDependencies ++= Seq(
             "com.thatscalaguy" %% "play-pjax" % "1.0-SNAPSHOT"
         )
@@ -25,7 +25,7 @@
         play.modules.enabled += "com.thatscalaguy.play.filters.PjaxFilterModule"
         ```
     * Add the `PjaxFilter` to your application `HttpFilters` class
-        ``` scala
+        ```scala
         class Filters @Inject()(pjaxFilter: PjaxFilter) extends HttpFilters {
           override def filters: Seq[EssentialFilter] = Seq(pjaxFilter)
         }
