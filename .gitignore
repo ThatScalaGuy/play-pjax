@@ -1,3 +1,5 @@
+bintray.sbt
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Scala template
 *.class
