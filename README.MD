@@ -20,7 +20,7 @@
 
         ``` scala
         libraryDependencies ++= Seq(
-            "com.thatscalaguy" %% "play-pjax" % "1.0-SNAPSHOT"
+            "com.thatscalaguy" %% "play-pjax" % "1.0"
         )
         ```
 
