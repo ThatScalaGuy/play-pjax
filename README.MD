@@ -10,29 +10,37 @@
 
 1. Add the play filter to your application
 
-    * Add the reslover if needed 
-        ```scala 
+    * Add the reslover if needed__
+
+        ``` scala 
         resolvers += Resolver.jcenterRepo
         ```
-    * Add the dependency to your sbt file 
-        ```scala
+
+    * Add the dependency to your sbt file__
+
+        ``` scala
         libraryDependencies ++= Seq(
             "com.thatscalaguy" %% "play-pjax" % "1.0-SNAPSHOT"
         )
         ```
-    * Enable the module in the `application.conf`
+
+    * Enable the module in the `application.conf`__
+
         ```
         play.modules.enabled += "com.thatscalaguy.play.filters.PjaxFilterModule"
         ```
-    * Add the `PjaxFilter` to your application `HttpFilters` class
-        ```scala
+
+    * Add the `PjaxFilter` to your application `HttpFilters` class__
+
+        ``` scala
         class Filters @Inject()(pjaxFilter: PjaxFilter) extends HttpFilters {
           override def filters: Seq[EssentialFilter] = Seq(pjaxFilter)
         }
         ```
 
-2. Add pjax to your views 
-    Find a detailed instruction of pjax [here](https://github.com/defunkt/jquery-pjax#overview).
+
+2. Add pjax to your views__
+   Find a detailed instruction of pjax [here](https://github.com/defunkt/jquery-pjax#overview).
 
 ## Notes
 
