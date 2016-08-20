@@ -10,13 +10,13 @@
 
 1. Add the play filter to your application
 
-    * Add the reslover if needed__
+    * Add the reslover if needed</br>
 
         ``` scala 
         resolvers += Resolver.jcenterRepo
         ```
 
-    * Add the dependency to your sbt file__
+    * Add the dependency to your sbt file</br>
 
         ``` scala
         libraryDependencies ++= Seq(
@@ -24,13 +24,13 @@
         )
         ```
 
-    * Enable the module in the `application.conf`__
+    * Enable the module in the `application.conf`</br>
 
         ```
         play.modules.enabled += "com.thatscalaguy.play.filters.PjaxFilterModule"
         ```
 
-    * Add the `PjaxFilter` to your application `HttpFilters` class__
+    * Add the `PjaxFilter` to your application `HttpFilters` class</br>
 
         ``` scala
         class Filters @Inject()(pjaxFilter: PjaxFilter) extends HttpFilters {
@@ -39,7 +39,7 @@
         ```
 
 
-2. Add pjax to your views__
+2. Add pjax to your views</br>
    Find a detailed instruction of pjax [here](https://github.com/defunkt/jquery-pjax#overview).
 
 ## Notes
