@@ -1,4 +1,4 @@
-# play-pjax
+# play-pjax [![Build Status](https://travis-ci.org/ThatScalaGuy/play-pjax.svg?branch=master)](https://travis-ci.org/ThatScalaGuy/play-pjax)
 
 ## Requirements
 
