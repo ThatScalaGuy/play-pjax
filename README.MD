@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* [Play Framework 2.5.0](playframework/playframework)    
+* [Play Framework 2.5.0](https://github.com/playframework/playframework)    
 * [jQuery](https://github.com/jquery/jquery)
 * [jquery-pjax](https://github.com/defunkt/jquery-pjax)
 
