@@ -21,7 +21,7 @@
 
         ``` scala
         libraryDependencies ++= Seq(
-            "com.thatscalaguy" %% "play-pjax" % "1.0"
+            "com.thatscalaguy" %% "play-pjax" % "1.0.1"
         )
         ```
 
