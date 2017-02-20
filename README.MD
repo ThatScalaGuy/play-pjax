@@ -1,4 +1,4 @@
-# play-pjax [![Build Status](https://travis-ci.org/ThatScalaGuy/play-pjax.svg?branch=master)](https://travis-ci.org/ThatScalaGuy/play-pjax) [![codecov](https://codecov.io/gh/ThatScalaGuy/play-pjax/branch/master/graph/badge.svg)](https://codecov.io/gh/ThatScalaGuy/play-pjax)
+# play-pjax [![Build Status](https://travis-ci.org/ThatScalaGuy/play-pjax.svg?branch=master)](https://travis-ci.org/ThatScalaGuy/play-pjax) [![codecov](https://codecov.io/gh/ThatScalaGuy/play-pjax/branch/master/graph/badge.svg)](https://codecov.io/gh/ThatScalaGuy/play-pjax) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/480e6b888e2b42009722fe95a200b261)](https://www.codacy.com/app/sven-herrmann/play-pjax?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ThatScalaGuy/play-pjax&amp;utm_campaign=Badge_Grade)
 
 
 ## Requirements
