@@ -37,9 +37,9 @@ class PjaxFilter @Inject()(materializer: Materializer)(implicit executionContext
 
       val stripedBody = (root \\ "_" filter (_ \@ "id" == container)).toString
 
-      val newContent = if(stripedBody.isEmpty) content.decodeString("UTF-8") else stripedBody
+      val newContent = if(stripedBody.isEmpty) content else ByteString(stripedBody)
 
-      HttpEntity.Strict(ByteString(newContent), body.contentType)
+      HttpEntity.Strict(newContent, body.contentType)
     }
   }
 }
