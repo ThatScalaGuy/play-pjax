@@ -3,9 +3,17 @@
 
 ## Requirements
 
-* [Play Framework 2.5.0](https://github.com/playframework/playframework)    
+* [Play Framework 2.6.0](https://github.com/playframework/playframework)    
 * [jQuery](https://github.com/jquery/jquery)
 * [jquery-pjax](https://github.com/defunkt/jquery-pjax)
+
+## Compatibility Matrix
+
+| Version | Play Version  | Scala 2.12.x | Scala 2.11.x |
+|---------|---------------|--------------|--------------|
+| 1.0.x   | 2.5.x         | no           | yes          |
+| 1.1.x   | 2.6.x         | yes          | yes          |
+| 1.2.x   | tbd           | tbd          | tbd          |
 
 ## Installation
 
@@ -21,7 +29,7 @@
 
         ``` scala
         libraryDependencies ++= Seq(
-            "com.thatscalaguy" %% "play-pjax" % "1.0.1"
+            "com.thatscalaguy" %% "play-pjax" % "1.1.0"
         )
         ```
 
